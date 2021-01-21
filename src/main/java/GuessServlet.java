@@ -13,8 +13,8 @@ public class GuessServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException {
         int random = (int) Math.ceil(Math.random() * 5);
-        int userInput = Integer.parseInt(req.getParameter("num"));
-        if (userInput == random) {
+        int userEntry = Integer.parseInt(req.getParameter("entry"));
+        if (userEntry == random) {
             res.sendRedirect("/correct");
         } else {
             res.sendRedirect("/incorrect");
