@@ -1,0 +1,23 @@
+Model - structure of the data/how to pull that data
+
+
+View - code responsible for displaying to user (aka the SOUTs)
+
+
+Controller - the psvm file (the file we run the application on); handles logic/path
+
+Blogging Application:
+Model -
+    Beans: Posts class, Author class, Comment class
+    DAO: DAO Interface, DAO Factory for Posts; DAO Interfance, DAO Factory for Authors; DAO Interface, DAO Factory for Comments
+
+View -
+    home.jsp (search functionality), signup.jsp, user-profile.jsp, blogpost.jsp, login.jsp, 404error.jsp
+
+Controller -
+    - HomePage servlet
+    - Sign-up Servlet
+    - Login servlet (GET and POST)
+    - ErrorPage servlet
+    - CreatePost servlet
+    - ViewPosts servlet
