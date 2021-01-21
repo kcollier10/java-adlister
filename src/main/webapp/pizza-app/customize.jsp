@@ -38,23 +38,23 @@
                 <option>X-Large</option>
             </select><br>
 
-            <input type="checkbox" id="pepperoni" value="pepperoni">
+            <input type="checkbox" id="pepperoni" value="Pepperoni" name="meats">
             <label for="pepperoni">Pepperoni</label><br>
-            <input type="checkbox" id="sausage" value="sausage">
+            <input type="checkbox" id="sausage" value="Sausage" name="meats">
             <label for="sausage">Sausage</label><br>
-            <input type="checkbox" id="canadianBacon" value="canadianBacon">
+            <input type="checkbox" id="canadianBacon" value="Canadian Bacon" name="meats">
             <label for="canadianBacon">Canadian Bacon</label><br>
-            <input type="checkbox" id="chicken" value="chicken">
+            <input type="checkbox" id="chicken" value="Chicken" name="meats">
             <label for="chicken">Chicken</label><br><br>
 
 
-             <input type="checkbox" id="mushrooms" value="mushrooms">
+             <input type="checkbox" id="mushrooms" value="Mushrooms" name="veggies">
             <label for="mushrooms">Mushroom</label><br>
-            <input type="checkbox" id="olives" value="olives">
+            <input type="checkbox" id="olives" value="Olives" name="veggies">
             <label for="olives">Olives</label><br>
-            <input type="checkbox" id="bananaPeppers" value="bananaPeppers">
+            <input type="checkbox" id="bananaPeppers" value="Banana Peppers" name="veggies">
             <label for="bananaPeppers">Banana Peppers</label><br>
-            <input type="checkbox" id="spinach" value="spinach">
+            <input type="checkbox" id="spinach" value="Spinach" name="veggies">
             <label for="spinach">Spinach</label><br><br>
 
             <label for="deliveryAddress">Delivery Address:</label>

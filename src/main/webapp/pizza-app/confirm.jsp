@@ -16,6 +16,9 @@
         <p>Delivery Address: ${deliveryAddress}</p>
         <br>
         <p>You ordered a/an ${size} pizza with ${sauce} sauce and ${crust} crust.</p>
+        <br>
+        <p>Meats selected: ${meats}</p>
+        <p>Veggies selected: ${veggies}</p>
 
     </body>
 </html>
