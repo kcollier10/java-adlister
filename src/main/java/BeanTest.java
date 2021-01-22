@@ -1,4 +1,7 @@
-package models;
+import models.Album;
+import models.Author;
+import models.Product;
+import models.Quote;
 
 import java.util.ArrayList;
 
@@ -40,6 +43,10 @@ public class BeanTest {
             System.out.println(q.getAuthor().getFirstName());
             System.out.println(q.getAuthor().getLastName());
         }
+
+        DaoFactory.getProductsDao().all(); // create a connection
+        DaoFactory.getProductsDao().insert(new Product()); // keeps using an existing connection
+
     }
 
 }
