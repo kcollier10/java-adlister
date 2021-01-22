@@ -1,3 +1,5 @@
+package daos;
+
 import models.Product;
 
 import java.util.ArrayList;
