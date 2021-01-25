@@ -8,7 +8,7 @@ import java.io.IOException;
 public class LogoutServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
         req.getSession().removeAttribute("user");
-        req. getSession().invalidate();
+        req.getSession().invalidate();
         res.sendRedirect("/login");
     }
 }
