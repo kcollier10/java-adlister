@@ -10,6 +10,7 @@
 
     <div class="container">
         <h1>WELCOME TO ADMIN DASHBOARD</h1>
+        <p>Is Admin: ${sessionScope.isAdmin}</p>
     </div>
 
 </body>
