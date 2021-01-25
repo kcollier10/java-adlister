@@ -10,7 +10,7 @@
 
     <div class="container">
         <h1>Viewing your profile.</h1>
-        <h1>Welcome, ${sessionScope.user}!</h1>
+        <h1>Welcome, ${sessionScope.user}! What would you like to do?</h1>
     </div>
 
 </body>
