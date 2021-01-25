@@ -14,12 +14,13 @@ public class ViewAdminDashboardServlet extends HttpServlet {
 
         boolean isAdmin = (boolean) session.getAttribute("isAdmin");
         // casting done because this is initially stored as an object
-        if(isAdmin == false) {
+        if(!isAdmin) {
             // user path
-
+        res.sendRedirect("/profile");
+        return;
         }
 
-        req.getRequestDispatcher("/admin.jsp").forward(req, res);
+        req.getRequestDispatcher("/WEB-INF/admin.jsp").forward(req, res);
     }
 
 }
