@@ -1,5 +1,7 @@
 package com.codeup.adlister.dao;
 
+import org.mindrot.jbcrypt.BCrypt;
+
 public class DaoFactory {
     private static Ads adsDao;
     private static Users usersDao;
@@ -18,4 +20,6 @@ public class DaoFactory {
         }
         return usersDao;
     }
+
 }
+
